@@ -8,12 +8,15 @@ The project use the basic role authentication functionality.
 
 This is done via roles that a user can have. 
 
-The existing roles are listed below with the corresponding permissions
+The existing roles are listed below with the corresponding permissions:
 
-ADMIN -> for managing users and managers
-MANAGER -> specific group for leaders
-EMPLOYEE -> basic role that see a few controls
+  * **ADMIN** -> for managing users and managers
+
+  * **MANAGER** -> specific group for leaders
+
+  * **EMPLOYEE** -> basic role that see a few controls
+
 There are three test users with the usernames and passwords:
-  john test123 (EMPLOYEE)
-  mary test123 (EMPLOYEE, MANAGER)
-  susan test123 (EMPLOYEE, ADMIN)
+  1. **john** *test123* (EMPLOYEE)
+  2. **mary** *test123* (EMPLOYEE, MANAGER)
+  3. **susan** *test123* (EMPLOYEE, ADMIN)
